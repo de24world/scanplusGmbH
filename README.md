@@ -4,9 +4,9 @@ Create a simple Angular application that utilizes the "Star Wars API" (https://s
 
 Page 1: Route: /movies Content: Get the list of Star Wars movies from the api. Create a list or grid that contains the movies (title, episode_id, release_date) By clicking on a list item (grid item) navigate to page 2
 
-create angular2-swapi files for model make models.ts for Type (title: string, episode_id, release_date: date)
+  1. create angular2-swapi files for model make models.ts for Type (title: string, episode_id, release_date: date)
 
-create service file with getmethod(ID) get Film List
+  2. create service file with getmethod(ID) get Film List
 
 Page 2: Route: /movies/$(episode_id) Content: Show all the details of the movie .Add a possibility to navigate back to the parent page. Create a basic page layout (nothing too fancy). Add a list of all characters with name and birthday.
 
